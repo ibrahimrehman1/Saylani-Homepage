@@ -110,16 +110,17 @@ h1 {
   text-align: center;
   margin-top: 10px;
 }
-.intro-div-section {
-  color: #666666;
-  margin-top: 20px;
-  display: inline-block;
-  text-align: justify;
-}
 .intro-div {
   background-color: #f7f8fa;
   text-align: center;
   padding-bottom: 5.2em;
+}
+.intro-div-section {
+  color: #666666;
+  margin-top: 20px;
+  padding: 3em;
+  display: inline-block;
+  text-align: justify;
 }
 .intro-img {
   border-radius: 50%;
@@ -227,9 +228,6 @@ h2 {
   box-shadow: 1px 1px 5px 1px black;
 }
 @media only screen and (max-width: 1150px) {
-  .text-1 {
-    display: none;
-  }
   .services-div > div {
     width: 90%;
   }
@@ -241,11 +239,7 @@ h2 {
     padding: 20px;
   }
 }
-@media only screen and (max-width: 850px) {
-  .img-6 {
-    display: none;
-  }
-}
+
 @media only screen and (max-width: 900px) {
   .mission {
     display: none;
